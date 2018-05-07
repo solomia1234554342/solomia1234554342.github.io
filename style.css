@@ -1,0 +1,25 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow: hidden;
+}
+.box{
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid blue;
+    background-color: bisque;
+    margin: 40vh auto;
+    transition: 1s;
+    
+}
+.box:hover{
+    background-color: aquamarine;
+    transform: scale(1.5);
+    cursor: pointer;
+    border: 5px solid darkred;
+}
